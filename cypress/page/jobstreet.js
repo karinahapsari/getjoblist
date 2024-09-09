@@ -66,7 +66,7 @@ export default class JobStreet {
           });
 
         // Read existing data from the JSON file
-        cy.readFile('example.json').then((existingData) => {
+        cy.readFile('hasil_scrap.json').then((existingData) => {
         let newData = [];
             if (Array.isArray(existingData)) {
                 newData = existingData;
